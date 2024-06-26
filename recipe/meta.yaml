@@ -1,5 +1,5 @@
 {% set name = "wxutils" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6a4780f677a584c1e0ac3959e3642d89d65b9ea4d3ac93f638c8dfbefdb5f063
+  sha256: 82f667a0d6606988d49b98cc3987566fb278776b4e6f97b9b0ba0e08ee639b01
 
 build:
   noarch: python
