@@ -1,5 +1,5 @@
 {% set name = "wxutils" %}
-{% set version = "2026.3.0" %}
+{% set version = "2026.4.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dc2582cbea88262f3451dbec606f54454e90184573db550556bda80cfc29735a
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: c69952740dbaf0c02a3056f84a0285edec7d55053d73237a6e1104b943ef7e65
 
 build:
   noarch: python
